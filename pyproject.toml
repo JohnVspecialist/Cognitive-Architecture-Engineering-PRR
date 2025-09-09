@@ -1,0 +1,9 @@
+[project]
+name = "cae-prr-unified"
+version = "0.1.0"
+description = "Unified Cognitive Architecture Engineering + Polyrhythmic Reasoning framework"
+authors = [{name="John Vaina"}]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
