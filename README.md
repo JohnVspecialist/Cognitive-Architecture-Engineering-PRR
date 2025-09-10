@@ -36,6 +36,52 @@ A starting point for secure, testable model pipelines where reasoning can be ver
 
 ## 🚀 Quick Start
 
+🔹 How to Use
+
+Clone the repo & set up environment
+
+git clone <your-repo-url>
+cd Cognitive-Architecture-Engineering-PRR
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+
+
+Run the demo
+
+python examples/demo.py
+
+
+Example output:
+
+[CAE] Checking invariants...
+[PRR] Running reasoning loop...
+{'cae_wrapped': 'Processed: Hello Cognitive Architecture + PRR'}
+
+
+Run the tests
+
+PYTHONPATH=src pytest -v
+
+
+Example output (green = success):
+
+tests/test_engine.py::test_engine_runs PASSED
+tests/test_unified_engine.py::TestUnifiedEngine::test_invariants_hold PASSED
+
+
+Extend it
+
+Add new invariants to check different properties of outputs.
+
+Build new PRR loops in src/prr/loops.py.
+
+Plug in different reasoning strategies.
+
+-----------------------------------------------------
+
+another option:
+
 Clone the repo:
 ```bash
 git clone https://github.com/JohnVspecialist/Cognitive-Architecture-Engineering-PRR.git
