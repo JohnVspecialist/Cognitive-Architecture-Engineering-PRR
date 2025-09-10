@@ -8,6 +8,23 @@ This repository unifies **Cognitive Architecture Engineering (CAE)** with **Poly
 - **CAE** provides the shell: invariants, observability, boundaries, safety, and accountability.  
 - **PRR** provides the core: multi-threaded reasoning loops in polyrhythmic cadence (4/4 vs 5/4).  
 
+🚀 How to Use This / What It’s For
+
+This project is a Cognitive Architecture + Polyrhythmic Reasoning (PRR) Engine.
+It’s designed to demonstrate how reasoning “invariants” (rules that must always hold true) can be applied to model outputs, ensuring that the system stays logically consistent and interpretable.
+
+🔹 What It’s For
+
+Provides a unified engine that combines two layers:
+
+CAE (Cognitive Architecture Engine): Handles invariants, checks consistency, and wraps outputs.
+
+PRR (Polyrhythmic Reasoning): Applies reasoning loops in parallel patterns (like musical polyrhythms) for richer logic chains.
+
+Serves as a playground for testing AI reasoning.
+
+A starting point for secure, testable model pipelines where reasoning can be verified with automated checks.
+
 ---
 
 ## ✨ Features
